@@ -1,0 +1,15 @@
+ .about-container {
+    background-color: #28282B;;
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: 300px;
+    flex-direction: column;
+}
+
+.summary {
+    width: 400px;
+    align-items: center;
+} 
