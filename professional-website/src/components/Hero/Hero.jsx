@@ -3,7 +3,7 @@ import profilePicture from '/src/assets/profile-image.png'
 
 function Hero() {
     return(
-        <div className="hero-container">
+        <div className="hero-container" id='hero'>
             <div className="content-container">
                 <div className="left-content">
                     <p className='name'>David Aispuro</p>

@@ -3,7 +3,7 @@ import './Misc.css'
 function Misc() {
     return(
 
-        <div className="misc-container">
+        <div className="misc-container" id='misc'>
             <div className="misc-container-title">Extracurriculars</div>
 
             <div className="misc-bottom-content">

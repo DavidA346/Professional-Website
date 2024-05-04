@@ -2,7 +2,7 @@ import './Education.css'
 
 function Education() {
     return(
-        <div className="education-container">
+        <div className="education-container" id="education">
             <div className="container-title">Education & Skills</div>
 
             <div className="education-bottom-content">

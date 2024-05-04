@@ -5,39 +5,18 @@
     align-items: center;
     padding: 30px;
     font-size: 20px;
- }
-
-.hero-link:hover{
-    text-decoration: underline;
-    text-underline-offset: 17px;
-    text-decoration-thickness: 3px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
-.about-link:hover{
-    text-decoration: underline;
-    text-underline-offset: 17px;
-    text-decoration-thickness: 3px;
-}
-
-.education-link:hover{
-    text-decoration: underline;
-    text-underline-offset: 17px;
-    text-decoration-thickness: 3px;
-}
-
-.experience-link:hover{
-    text-decoration: underline;
-    text-underline-offset: 17px;
-    text-decoration-thickness: 3px;
-}
-
-.misc-link:hover{
-    text-decoration: underline;
-    text-underline-offset: 17px;
-    text-decoration-thickness: 3px;
-}
-
-.contact-link:hover{
+.hero-link:hover,
+.about-link:hover,
+.education-link:hover,
+.experience-link:hover,
+.misc-link:hover,
+.contact-link:hover {
     text-decoration: underline;
     text-underline-offset: 17px;
     text-decoration-thickness: 3px;
