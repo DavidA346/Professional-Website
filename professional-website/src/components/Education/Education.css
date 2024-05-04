@@ -1,0 +1,46 @@
+.education-container{
+    background-color: #E5E7EB;
+    color: black;
+    margin-top: 30px;
+    padding: 20px;
+    height: auto;
+    font-weight: bolder;
+}
+
+.skills-content img{
+    width: 70px;
+    height: auto;
+    margin-right: 100px;
+    padding: 20px;
+}
+
+.skills-right-content {
+    width: 50%;
+}
+
+.education-left-content {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.container-title {
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.education-bottom-content {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+
+.skill-logo {
+    transition: transform 0.2s;
+}
+  
+.skill-logo:hover {
+    transform: scale(1.1);
+}

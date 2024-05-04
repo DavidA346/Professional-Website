@@ -1,0 +1,41 @@
+.footer-container {
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-title {
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 40px;
+}
+
+.contact-logos img {
+    width: 40px;
+    height: auto;
+}
+
+.footer-bottom-container {
+    display: flex;
+}
+
+.contact-logos {
+    display: flex;
+    padding: 40px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.contact-email a {
+    color: white;
+
+}
+
+.contact-email a:visited {
+    color: white;
+}
+
+.contact-email a:active {
+    text-decoration: underline; 
+}
