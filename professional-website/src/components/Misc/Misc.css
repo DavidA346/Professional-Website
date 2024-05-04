@@ -1,0 +1,38 @@
+.misc-container{
+    background-color: #E5E7EB;
+    padding: 20px;
+    height: auto;
+    color: black;
+    font-weight: bolder;
+}
+
+.misc-container-title {
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+.misc-right-content {
+    width: 50%;
+}
+
+.misc-left-content {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.misc-bottom-content {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding: 80px;
+}
+
+.boxing-info {
+    line-height: 30px;
+}
+
+.soccer-info {
+    line-height: 30px;
+}

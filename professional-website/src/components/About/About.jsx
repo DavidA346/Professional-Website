@@ -8,16 +8,40 @@ function About() {
 
     return (
         <div className="about-container">
-            <div className="about-label">About</div>
+            <div className="about-label">About Me</div>
 
             <div className="about-bottom-content">
-                <p className="summary">I am a first-generation college student. I am Hispanic with both my parents being from Mexico.
-                    I am from Cathedral City, CA, which is a small town right outside of Palm Springs. Some of my interests include: 
-                    soccer, video games, working out, and watching shows. My main career goal is to become a Game Developer for a company
-                    or becoming a Web Developer as these are the fields that really intrigue me.
-                </p>
+                <div className="personal-info">
+                    <p>Personal Information:</p>
+                    <ul> 
+                        <li>Location: Palm Springs, CA</li>
+                        <li>Age: 20</li>
+                        <li>Email: daisp002@ucr.edu</li>
+                    </ul>
+                </div>
 
-                <button className="resume" onClick={openResume}>Resume</button>
+                <div className="interests-info">
+                    <p>Interests:</p>
+                    <ul> 
+                        <li>Soccer</li>
+                        <li>Gym</li>
+                        <li>Coding</li>
+                        <li>Video Games</li>
+                    </ul>
+                </div>
+
+                <div className="career-info">
+                    <p>Career Goals:</p>
+                    <ul> 
+                        <li>Game Developer</li>
+                        <li>Software Engineer</li>
+                        <li>Web Developer</li>
+                    </ul>
+                </div>
+
+                <div className="resume-button">
+                    <button className="resume" onClick={openResume}>Resume</button>
+                </div>
             </div>
         </div>
     );
